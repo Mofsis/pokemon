@@ -1,0 +1,27 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.pokemon {
+    column-count: 3;
+}
+.pokeList {
+    -webkit-column-break-inside: avoid;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 5px 5px 15px gray;
+
+}
+
+li {
+    list-style-type: none;
+    background-color: darkgray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.logo {
+    margin: 20px;
+    align-content: center;
+}
