@@ -1,0 +1,50 @@
+body {
+    background-color: #ffd042;
+}
+
+.pokemon {
+    /*column-count: 3;*/
+    margin: 10px 150px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pokeList {
+    /*-webkit-column-break-inside: avoid;*/
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 0 10px;
+    flex: 0 1 calc(15% - 8px);
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+
+}
+
+li {
+    list-style-type: none;
+    background-color: #dedcdc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.logo {
+    margin: 50px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-65%);
+}
+
+.button {
+    width: 100px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #1a6dc9;
+    border: none;
+    color: whitesmoke;
+    position: relative;
+    left: 50%;
+    transform: translate(-120%);
+}
