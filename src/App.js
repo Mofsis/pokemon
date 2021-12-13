@@ -3,6 +3,7 @@ import './App.css';
 import axios from "axios";
 import Pokemon from "./components/Pokemon";
 import Logo from "./assets/png-clipart-pokemon-logo-pokemon-logo.png"
+import {toBeDisabled} from "@testing-library/jest-dom/dist/matchers";
 
 function App() {
 
@@ -27,18 +28,20 @@ function App() {
       <>
       <img src={Logo} width={500} className="logo" alt="logo"/>
       <button
+
+          className="button"
           type="button"
           onClick={() => setEndPoint(pokemonData.previous)}
       >
           Vorige
       </button>
       <button
+          className="button"
           type="button"
           onClick={() => setEndPoint(pokemonData.next)}
       >
-          Vorige
+          Volgende
       </button>
-
           <div className="pokemon">
           {pokemonData && <>
 
